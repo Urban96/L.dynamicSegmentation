@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D0",
+        "start_km": 0,
+        "end_km": 13.62,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D0",
+        "start_km": 13.62,
+        "end_km": 27.24,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D0",
+        "start_km": 27.24,
+        "end_km": 40.86,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D1",
+        "start_km": 0,
+        "end_km": 117.38,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D1",
+        "start_km": 117.38,
+        "end_km": 234.76,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D1",
+        "start_km": 234.76,
+        "end_km": 352.11,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D10",
+        "start_km": 0,
+        "end_km": 23.42,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D10",
+        "start_km": 23.42,
+        "end_km": 46.83,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D10",
+        "start_km": 46.83,
+        "end_km": 70.26,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D11",
+        "start_km": 0,
+        "end_km": 29.20,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D11",
+        "start_km": 29.20,
+        "end_km": 58.40,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D11",
+        "start_km": 58.40,
+        "end_km": 87.61,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D2",
+        "start_km": 0,
+        "end_km": 20.31,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D2",
+        "start_km": 20.31,
+        "end_km": 40.62,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D2",
+        "start_km": 40.62,
+        "end_km": 60.92,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D3",
+        "start_km": 0,
+        "end_km": 14.08,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D3",
+        "start_km": 14.08,
+        "end_km": 28.16,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D3",
+        "start_km": 28.16,
+        "end_km": 42.25,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D35",
+        "start_km": 0,
+        "end_km": 20.59,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D35",
+        "start_km": 20.59,
+        "end_km": 41.18,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D35",
+        "start_km": 41.18,
+        "end_km": 61.77,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D4",
+        "start_km": 0,
+        "end_km": 12.78,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D4",
+        "start_km": 12.78,
+        "end_km": 25.56,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D4",
+        "start_km": 25.56,
+        "end_km": 38.36,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D46",
+        "start_km": 0,
+        "end_km": 12.88,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D46",
+        "start_km": 12.88,
+        "end_km": 25.76,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D46",
+        "start_km": 25.76,
+        "end_km": 38.64,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D48",
+        "start_km": 0,
+        "end_km": 10.60,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D48",
+        "start_km": 10.60,
+        "end_km": 21.20,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D48",
+        "start_km": 21.20,
+        "end_km": 31.80,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D5",
+        "start_km": 0,
+        "end_km": 50.44,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D5",
+        "start_km": 50.44,
+        "end_km": 100.88,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D5",
+        "start_km": 100.88,
+        "end_km": 151.33,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D52",
+        "start_km": 0,
+        "end_km": 5.59,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D52",
+        "start_km": 5.59,
+        "end_km": 11.12,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D52",
+        "start_km": 11.12,
+        "end_km": 16.76,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D55",
+        "start_km": 0,
+        "end_km": 5.62,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D55",
+        "start_km": 5.62,
+        "end_km": 11.32,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D55",
+        "start_km": 11.32,
+        "end_km": 16.88,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D56",
+        "start_km": 0,
+        "end_km": 0.40,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D56",
+        "start_km": 0.40,
+        "end_km": 0.80,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D56",
+        "start_km": 0.80,
+        "end_km": 1.21,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D6",
+        "start_km": 0,
+        "end_km": 23.18,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D6",
+        "start_km": 23.18,
+        "end_km": 46.36,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D6",
+        "start_km": 46.36,
+        "end_km": 69.53,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D7",
+        "start_km": 0,
+        "end_km": 11.77,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D7",
+        "start_km": 11.77,
+        "end_km": 23.55,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D7",
+        "start_km": 23.55,
+        "end_km": 35.32,
+        "traffic": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D8",
+        "start_km": 0,
+        "end_km": 27.40,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D8",
+        "start_km": 27.40,
+        "end_km": 54.81,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "D8",
+        "start_km": 54.81,
+        "end_km": 82.21,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "R6",
+        "start_km": 0,
+        "end_km": 1.26,
+        "traffic": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "R6",
+        "start_km": 1.26,
+        "end_km": 2.52,
+        "traffic": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CISLO_SILNICE": "R6",
+        "start_km": 2.52,
+        "end_km": 3.78,
+        "traffic": 1
+      }
+    }
+  ]
+}

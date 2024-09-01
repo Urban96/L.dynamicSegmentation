@@ -1,0 +1,105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 0,
+        "end_km": 2.35,
+        "speed_limit": 40,
+        "status": "good"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 2.35,
+        "end_km": 4.70,
+        "speed_limit": 45,
+        "status": "bad"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 4.70,
+        "end_km": 7.05,
+        "speed_limit": 50,
+        "status": "good"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 7.05,
+        "end_km": 9.40,
+        "speed_limit": 55,
+        "status": "bad"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 9.40,
+        "end_km": 11.75,
+        "speed_limit": 60,
+        "status": "good"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 11.75,
+        "end_km": 14.10,
+        "speed_limit": 65,
+        "status": "bad"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 14.10,
+        "end_km": 16.45,
+        "speed_limit": 70,
+        "status": "good"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 16.45,
+        "end_km": 18.80,
+        "speed_limit": 75,
+        "status": "bad"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 18.80,
+        "end_km": 21.15,
+        "speed_limit": 80,
+        "status": "good"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "line-1",
+        "start_km": 21.15,
+        "end_km": 23.54,
+        "speed_limit": 90,
+        "status": "bad"
+      }
+    }
+  ]
+}

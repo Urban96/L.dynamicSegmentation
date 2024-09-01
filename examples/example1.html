@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaflet Dynamic Segmentation</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    #map { height: 98vh; }
+  </style>
+  
+</head>
+<body>
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet-geometryutil/src/leaflet.geometryutil.js"></script>
+
+  <script src="../dist/L.dynamicSegmentation.min.js"></script>
+
+  <script>
+
+  var map = L.map('map').setView([50.1750, 14.4600], 7);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: 'abcd',
+    maxZoom: 20
+  }).addTo(map);
+
+
+  // var style = {
+  //     40: '#ffcccc', // Light red
+  //     50: '#ff9999',
+  //     60: '#ff6666',
+  //     70: '#ff3333',
+  //     80: '#cc0000',
+  //     90: '#990000' // Dark red
+  // };
+
+  // var style = {
+  //     'good': '#008000',
+  //     'bad': '#cd1c18'
+  // };
+
+  // var style = {
+  //     '40-49': '#ffcccc', // Light red
+  //     '50-59': '#ff9999',
+  //     '60-69': '#ff6666',
+  //     '70-79': '#ff3333',
+  //     '80-89': '#cc0000',
+  //     '90-100': '#990000' // Dark red
+  // };
+
+  // var dynamicSegmentationLayer = L.dynamicSegmentation({
+  //     baseDataUrl: 'data/lines.geojson',
+  //     dynamicDataUrl: 'data/segments.geojson',
+  //     idAttribute: 'CISLO_SILNICE',
+  //     unit: 'km',
+  //     startAttribute: 'start_km',
+  //     endAttribute: 'end_km',
+  //     styleAttribute: 'status',
+  //     showPopup: true,
+  //     style: style
+  // }).addTo(map);
+
+  var style = {
+    1: '#4be82c',
+    2: '#f0b435',
+    3: '#a31818'
+  };
+
+  var dynamicSegmentationLayer = L.dynamicSegmentation({
+    baseDataUrl: 'data/lines.geojson',
+    dynamicDataUrl: 'data/segments1.geojson',
+    idAttribute: 'CISLO_SILNICE',
+    unit: 'km',
+    startAttribute: 'start_km',
+    endAttribute: 'end_km',
+    styleAttribute: 'traffic',
+    showPopup: true,
+    style: style
+  }).addTo(map);
+
+  // setTimeout(function() {
+  //     dynamicSegmentationLayer.updateDynamicData('data/dynamic-segments1.geojson');
+  // }, 3000);
+
+  // setTimeout(function() {
+  //     dynamicSegmentationLayer.updateStyleConfig({
+  //         'bad': '#008000',
+  //         'good': '#cd1c18'
+  //     });
+  // }, 3000);
+
+  // setTimeout(function() {
+  //     dynamicSegmentationLayer.clearSegments();
+  // }, 3000);
+
+  </script>
+</body>
+</html>
